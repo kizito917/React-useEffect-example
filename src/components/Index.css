@@ -1,0 +1,75 @@
+.index-content {
+    margin-top: 2rem;
+    color: #102a42
+}
+
+.card {
+    background: white;
+    /* height: 70vh; */
+    width: 46%;
+    margin-left: 27%;
+    margin-right: 27%;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+.card img {
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.card__content {
+    padding: 1.5rem;
+}
+
+/* .card__content__title {
+    display: flex;
+    gap: 20rem;
+} */
+
+.card__content__name {
+    text-align: left;
+    width: 90%;
+}
+
+.card__content__title__price {
+    text-align: right;
+    width: 10%;
+}
+.card__content__name, .card__content__title__price {
+    display: inline-block;
+}
+
+.card__content__title__price h5 {
+    background: #ebf7ff;
+    color: #49a6e9;
+    padding: 0.25rem 0.5rem;
+}
+
+.card__content__desc {
+    text-align: left;
+}
+
+.card__content__action button {
+    cursor: pointer;
+    display: block;
+    width: 200px;
+    margin: 1rem auto 0;
+    color: #bb2525;
+    background: transparent;
+    border: 1px solid #bb2525;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+}
+
+.underline {
+    width: 6rem;
+    height: 0.25rem;
+    background: #49a6e9;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
