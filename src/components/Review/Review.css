@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.review-content {
+    margin-top: 5rem;
+}
+
+.review-content h2 {
+    font-size: 2rem;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.underline {
+    width: 6rem;
+    height: 0.25rem;
+    background: #49a6e9;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+
+article {
+    display: block;
+}
+
+.review-content__card {
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 4rem;
+    background: #fff;
+    padding: 1.5rem 2rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+    transition: all .3s linear;
+    text-align: center;
+}
+
+.image-container {
+    position: relative;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 1.5rem;
+}
+
+.image-container:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: -0.25rem;
+    right: -0.5rem;
+}
+
+.image-container:before, .quote-icon {
+    position: absolute;
+    border-radius: 50%;
+    background: #49a6e9;
+}
+
+.person-img {
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    border-radius: 50%;
+}
+
+icon {
+    position: absolute;
+    border-radius: 50%;
+    background: #49a6e9;
+}
+
+.quote-icon {
+    top: 0;
+    left: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: grid;
+    place-items: center;
+    transform: translateY(25%);
+    color: #fff;
+}
+
+.name {
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+}
+
+.job {
+    font-weight: normal;
+    color: #49a6e9;
+    margin-bottom: 1rem;
+}
+
+.button-container {
+    margin-top: 1rem;
+}
+
+.next-btn, .prev-btn {
+    color: #8bcbf9;
+    font-size: 1.25rem;
+    background: transparent;
+    border-color: transparent;
+    margin: 0 0.5rem;
+    transition: all .3s linear;
+    cursor: pointer;
+}
+
+.next-btn:hover, .prev-btn:hover, .random-btn {
+    color: #49a6e9;
+}
+
+.random-btn {
+    margin-top: 0.5rem;
+    background: #ebf7ff;
+    padding: 0.25rem 0.5rem;
+    text-transform: capitalize;
+    border-radius: 0.25rem;
+    transition: all .3s linear;
+    border-color: transparent;
+    cursor: pointer;
+}
